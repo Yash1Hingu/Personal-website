@@ -1,0 +1,227 @@
+/* Title Section */
+
+#title {
+    background-color: #EEEEEE;
+    padding: 3% 13% 7%;
+}
+
+.navbar {
+    padding-bottom: 4%;
+}
+
+.nav-link {
+    margin: 0 15px;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
+
+.nav-link:hover {
+    color: #256D85;
+}
+
+.yash-img {
+    width: 65%;
+    margin-top: -50px;
+    background-color: #256D85;
+    border-radius: 50%;
+}
+
+.yash-ab {
+    text-align: center;
+    padding-top: 7%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.yash-ab h1 {
+    font-weight: 900;
+    font-size: 3.3rem;
+}
+
+.yash-ab p {
+    color: #393E46;
+    font-size: 1.0rem;
+    font-weight: 300;
+}
+
+.tw-btn{
+    background-color: #1d9bf0;
+    border-radius: 9999px;
+    color: #fff;
+}
+
+/* Profile Section */
+
+/* #profile {
+    background-color: #256D85;
+    padding: 10% 15%;
+    text-align: center;
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#profile h1 {
+    font-size: 3.1rem;
+    margin-bottom: 3%;
+}
+
+#profile p {
+    padding: 0 10%;
+} */
+
+.navbar-toggler {
+    border: 0;
+    color: #256D85;
+}
+
+
+/* Experience Section */
+#experience {
+    padding: 7% 15%;
+    background-color: #EEEEEE;
+}
+.exp-addre{
+    color: #256D85;
+}
+.expe-header{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+h1{
+    font-size: 3.0rem;
+    font-weight: 200;
+}
+.expe-header h1{
+    color: #256D85;
+    font-size: 3.6rem;
+    margin-bottom: 3%;
+    font-weight: 200;
+    line-height: 1.4;
+} 
+
+.expe-header p{
+    color:#727878 ;
+    line-height: 1.4;
+    font-size: 1.4rem;
+}
+
+#experience h1{
+    margin:3% 0 3%;
+    color: #256D85;
+}
+
+#experience .container{
+    padding: 0%;
+}
+
+#experience .row{
+    margin-bottom: 5%;
+}
+
+
+
+/* Project Section */
+
+
+#project{
+    background-color: #256D85;
+    padding: 5% 15%;
+    text-align: center;
+}
+
+#project hr{
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+.project-head h1{
+    color: #fff;
+    font-size: 3.6rem;
+    letter-spacing: 5px;
+    font-weight: 200;
+}
+
+.project-head p{
+    color:#eeeeeeb5;
+    line-height: 1.4;
+    font-size: 1.4rem;
+}
+
+.card{
+    margin: 3%;
+}
+
+.card-body{
+    padding: 7% 3%;
+}
+
+.btn{
+    margin-top: 3%;
+}
+
+
+/* Conatcat */
+
+#contact{
+    padding: 10% 15%;
+    background-color: #393E46;
+    color: #EEEEEE;
+    text-align: center;
+}
+#contact h1{
+    font-size: 3.6rem;
+    font-weight: 200;
+}
+#contact p{
+    margin-bottom: 10%;
+    font-size: 2.0rem;
+}
+
+/* Scorall Button */
+.scrollbtn {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    cursor: pointer;
+}
+
+.scrollbtn i{
+    color:#000;
+}
+.scrollbtn i:hover{
+    color: rgb(39, 39, 39);
+}
+
+
+/* Mobile View  */
+@media (max-width:1024px) {
+    .yash-img {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    #experience,#title{
+        padding:5%;
+    }
+    .expe-header h2{
+        font-size: 2.3rem;
+    }
+
+    .mobile-hide{
+        display: none;
+    }
+
+    #experience h4{
+        font-size: 1.0rem;
+    }
+
+    .yash-ab h1 {
+        font-weight: 900;
+        font-size: 2.3rem;
+    }
+
+    #project{
+        padding: 5%;
+    }
+}
