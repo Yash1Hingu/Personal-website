@@ -1,0 +1,28 @@
+.revel {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+.revel.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+@keyframes poping {
+    from {
+        transform: translate3d(10px,10px,10px);
+        box-shadow: 0px 16px 16px 0px #256d85a4;
+    }
+    to {
+        box-shadow:none;
+        transform: translate3d(0);
+    }
+
+}
+.poping  {
+    animation-name: poping;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
