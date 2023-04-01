@@ -1,5 +1,4 @@
 /* Title Section */
-
 #title {
     background-color: #EEEEEE;
     padding:3% 3% 7% 3%;
@@ -243,4 +242,13 @@ h1{
     #project{
         padding: 5%;
     }
+}
+
+
+/* conatct */
+
+#contact {
+    padding: 10%;
+    display: flex;
+    justify-content: center;
 }
