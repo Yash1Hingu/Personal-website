@@ -251,4 +251,10 @@ h1{
     padding: 10%;
     display: flex;
     justify-content: center;
+    gap: 10px;
+}
+
+.comment {
+    width: 100vh;
+    height: 100vh;
 }
